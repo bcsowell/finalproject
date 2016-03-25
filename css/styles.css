@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  font-family: "Ubuntu";
 }
 
 
@@ -33,9 +34,11 @@ body {
   width: auto;
 }
 
+.navbar-wrapper {
+  font-family: "Ubuntu Condensed";
+}
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+/* CAROUSEL------------------ */
 
 /* Carousel base class */
 .carousel {
@@ -83,7 +86,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 50px;
+  margin: 80px 0px;
   /* Space out the Bootstrap <hr> more */
 }
 
@@ -93,7 +96,6 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -133,4 +135,10 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+/*Footer*/
+footer{
+  text-align: center;
+  padding-top: 15px;
 }
