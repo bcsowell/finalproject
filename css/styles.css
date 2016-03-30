@@ -55,12 +55,13 @@ body {
   height: 500px;
   width: auto;
   background-color: #777;
+  min-width: 100%;
 }
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  min-width: 100vw;
   height: 500px;
 }
 
